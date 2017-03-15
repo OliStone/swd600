@@ -199,3 +199,11 @@ Media Queries
     }
     
 }
+
+
+@media (max-width: 875px) {
+    .hero h1,
+    .hero p {
+        width: 100%;
+    }
+}
