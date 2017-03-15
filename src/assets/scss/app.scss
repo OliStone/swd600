@@ -93,18 +93,16 @@ NAV BAR - DESKTOP
     background-color: transparent;
 }
 
-.nav-desktop a { 
-    color: red;
-}
-
 .menu > li > a {
     display: inline-block;
     line-height: 80px;
     padding-top: 0;
     padding-bottom: 0;
+    color: white;
 }
 
 .menu > li > a:hover {
+    background-color: rgba(255,255,255,0.1);
     
 }
 
@@ -183,7 +181,7 @@ footer a {
 
 footer a span {
     font-weight: bold;
-    color: rgba{255,255,255,0.3;
+    color: rgba(255,255,255,0.3);
     
 }
 
