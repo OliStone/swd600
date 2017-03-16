@@ -63,6 +63,10 @@ GENERAL SECTION
     background-color: #226;
 }
 
+.hero-label {
+    font-size: 20px;
+    color: #00033f;
+}
 
 /* ****************************************
 NAV BAR - MOBILE
@@ -150,10 +154,25 @@ TOP SECTION
     color: rgba(255,255,255,0.8);
     max-width: 70%;
 }
-    
+
 .button.success {
-    background-color: purple;
+    background-color: #33ff33;
 }
+
+
+
+.hero-subtle {
+    background-color: #4d4dff;
+    padding: 40px 0;
+}
+
+.hero-form {
+    background-color: #226;
+    border-radius: 25px;
+    padding: 20px;
+    height: auto;
+}
+
     
 
 
