@@ -68,6 +68,11 @@ GENERAL SECTION
     color: #00033f;
 }
 
+.jlabel {
+    font-size: 20px;
+    color: #FFF;
+}
+
 /* ****************************************
 NAV BAR - MOBILE
 **************************************** */
@@ -165,12 +170,14 @@ TOP SECTION
     background-color: #4d4dff;
     padding: 40px 0;
 }
-
-.hero-form {
+.holder1 {
     background-color: #226;
     border-radius: 25px;
     padding: 20px;
-    height: auto;
+}
+
+.submit1 {
+    margin-top: 25px;
 }
 
     
@@ -242,12 +249,9 @@ Media Queries
         display: none;
     }
     
-}
-
-
-@media (max-width: 875px) {
-    .hero h1,
-    .hero p {
-        width: 100%;
+    .submit1 {
+        margin-top: 10px;
     }
+    
+    
 }
