@@ -60,7 +60,8 @@ GENERAL SECTION
 }
 
 .off-canvas-wrapper {
-    background-color: #226;
+    background-color: #FFF;
+    
 }
 
 .hero-label {
@@ -180,6 +181,11 @@ TOP SECTION
     margin-top: 25px;
 }
 
+#submit2 {
+    margin-top: 25px;
+    background-color: #226;
+}
+
     
 
 
@@ -187,21 +193,10 @@ TOP SECTION
 MAIN SECTION
 **************************************** */
 .main {
-    padding: 80px 0px;
+    padding: 30px 0px;
     background-color: white;
 }
 
-.main_section {
-    background-color: blue;
-}
-
-.main-context {
-    background-color: blue;
-}
-
-.zebra {
-    background-color: blue;
-}
 
 
 

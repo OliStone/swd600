@@ -37,9 +37,7 @@
         </div>
     
     
-    
   
-
 
     
         <!---- DESKTOP NAVIGATION -->
@@ -89,7 +87,7 @@
                     </label>
                 </div>
                 <div class="medium-2 columns">
-                <input type="submit" class="button" value="Submit">
+                <input type="submit" class="button" id="submit2" value="Submit">
                     
         
                
@@ -101,38 +99,61 @@
       
         <!--MAIN SECTION-->
         <section class="main">
-          <div class="wrap row small-up-1 medium-up-2">
-            <div class="small-12 medium-7 column">
-              <h1>Main Section</h1>
-              <hr>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-              <div class="row">
-              <div class="small-12 medium-5 column">
-                <h1>Secondary Section</h1>
-                <hr>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-              </div>
           
-        
-        
-        
-        
-            </div>
+          <form>
+            <div class="row">
+              <div class="medium-3 columns">
+                <label>Location
+                  <input type="text" placeholder="Location">
+                </label>
+                
+                <label>Distance
+                  <select>
+                    <option value="5">5 miles</option>
+                    <option value="10">10 miles</option>
+                    <option value="15">15 miles</option>
+                    <option value="20">20 miles</option>
+                  </select>
+                </label>
+                
+                 <label>Job Type
+                  <select required>
+                    <option value="" disabled selected>Select something...</option>
+                    <option value="Permanent">Permanent</option>
+                    <option value="Full-Time">Full-time</option>
+                    <option value="Temporary">Temporary</option>
+                    <option value="Part-TIme">Part-time</option>
+                    <option value="Contract">Contract</option>
+                  </select>
+                </label>
+                
+                
+                <label>Salary
+                  <select required>
+                    <option value="" disabled selected>Select something...</option>
+                    <option value="15">£15,000+</option>
+                    <option value="20">£20,000+</option>
+                    <option value="25">£25,000+</option>
+                    <option value="30">£30,000+</option>
+                    <option value="35">£35,000+</option>
+                    <option value="40">£40,000+</option>
+                  </select>
+                </label>
+<!---FORM COLUMN ENDS-->
+              </div>
+<!-------ABOVE--------->
+              
+          
+          
+          
+          
+          </form>
+
         </section>
         
       
       
-      
-      
-      
-      
+  
       
       
       <!--FOOTER -->
