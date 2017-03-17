@@ -83,7 +83,7 @@ NAV BAR - MOBILE
 **************************************** */
 .title-bar {
     background-color: #226;
-    height: 60px;
+    height: 70px;
     padding-top: 17px;
 }
 
@@ -125,7 +125,8 @@ NAV BAR - DESKTOP
 
 .site-logo {
     color: white;
-    line-height: 80px;
+    line-height: 50px;
+    margin-top: 15px;
 }
 
 .nav-desktop .menu-desktop {
@@ -146,16 +147,6 @@ NAV BAR - DESKTOP
     
 }
 
-.top-logo {
-    background-image: url('/assets/img/aelogo.png');
-    background-repeat: no-repeat;
-    content: "";
-    display: inline-block;
-    height: 18px;
-    margin-right: 10px;
-    position: relative;
-    width: 18px;
-}
 
 
 
@@ -230,6 +221,13 @@ MAIN SECTION
 
 
 
+.card {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
 
 /* **************************************
 / FORM STYLES ********************************* */
@@ -292,6 +290,11 @@ Media Queries
     
     .submit1 {
         margin-top: 10px;
+    }
+    
+    .site-logo {
+        float: right;
+        margin-bottom: 10px;
     }
     
     
