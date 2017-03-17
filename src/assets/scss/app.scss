@@ -146,6 +146,16 @@ NAV BAR - DESKTOP
     
 }
 
+.top-logo {
+    background-image: url('/assets/img/aelogo.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    margin-right: 10px;
+    position: relative;
+    width: 18px;
+}
 
 
 
@@ -213,6 +223,10 @@ MAIN SECTION
     margin-left: 10px;
 }
 
+.apply-button {
+    float: right;
+    border-radius: 25px;
+}
 
 
 
